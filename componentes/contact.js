@@ -8,7 +8,7 @@ function sendForm(formDataEl) {
           method: "POST",
           headers: { "content-type": "application/json" },
           body: JSON.stringify({
-             to: "miqueaslazarte03@gmail.com",
+             to: "sebabachella@gmail.com",
              message: `Nombre: ${formObject.user},
              Email: ${formObject.email}, 
              Mensaje: ${formObject.message}`

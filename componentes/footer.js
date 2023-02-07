@@ -3,7 +3,7 @@ function footer(footerContenedor){
 
     footerEl.innerHTML =`
     <div class="pie-pagina">
-            <img class="logo-seba" src="./img/Logo_SB-sin-fondo.png" alt="">
+        <img class="logo-seba" src="./img/Logo-sin-fondo.png" alt="">
         <div class="footer__section">
             <div class="footer__container-icon">
                 <a class="footer__home" href="./index.html">

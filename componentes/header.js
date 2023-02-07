@@ -18,7 +18,7 @@ function header(el) {
   
     headerEl.innerHTML = `
             <header class="header">
-            <a href="./index.html"><img src="./img/Logo_SB-sin-fondo.png" alt="logo IlBake" class="logo__ilBake"></a>
+            <a href="./index.html"><img src="./img/Logo-sin-fondo.png" alt="logo IlBake" class="logo__ilBake"></a>
                 <div class="menu-hamburguesa">
                     <div class="menu-hamburguesa__mobile"></div>
                     <div class="menu-hamburguesa__mobile"></div>
