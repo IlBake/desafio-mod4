@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins";
+    background-color: #13171c;
+    color: white;
+}
+
+.portfolio {
+    background-image: url(/img/fondo-de-cards.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding-bottom: 20px;
+}
+
+.portfolio-title {
+    font-size: 3rem;
+}
+
+.portfolio-img{
+    height: 200px;
+}
+
+.contenedor-portfolio {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.card {
+    background-color: rgba(57, 62, 70, 0.5);
+    padding: 2rem;
+    border-radius: 16px;
+    text-decoration: none;
+    display: flex;
+    max-width: 300px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}

@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins";
+    background-color: #13171c;
+    color: white;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding-bottom: 20px;
+}
+
+@media (min-width: 680px){
+    .service{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+}
+
+.servicios {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+
+
+
+.contenedor-servicios{
+    background-image: url(/img/fondo-de-cards.png);
+}
+
+.contenedor-service {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.card {
+    background-color: rgba(57, 62, 70, 0.5);
+    padding: 2rem;
+    border-radius: 16px;
+    text-decoration: none;
+    display: flex;
+    max-width: 300px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.card-img {
+    object-fit: cover;
+    width: 100%;
+    height: 140px;
+}

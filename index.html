@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IlBake</title>
+
+
+    <script defer src="./componentes/header.js"></script>
+    <link rel="stylesheet" href="./componentes/header.css">
+
+    <script defer src="./componentes/contact.js"></script>
+    <link rel="stylesheet" href="./componentes/contact.css">
+
+    <script defer src="./componentes/footer.js"></script>
+    <link rel="stylesheet" href="./componentes/footer.css">
+
+    <script defer src="./pages/services.js"></script>
+    <link rel="stylesheet" href="./pages/services.css">
+
+    <script defer src="./pages/index.js"></script>
+    <link rel="stylesheet" href="./pages/index.css">
+
+</head>
+
+<body>
+    <header class="header-section"></header>
+    <section class="bienvenida">
+        <template id="template-welcome">
+            <div class="bienvenida-ver">
+                <h1 class="template-welcome__name"></h1>
+                <img class="imagen-prueba" src="./img/cohete.png" alt="">
+            </div>
+        </template>
+    </section>
+
+    <section class="presentacion">
+        <template id="presentation">
+            <div class="contenedor-presentation">
+                <div class="contenedor-presentation-me">
+                    <h1 class="contenedor-presentation__title"></h1>
+                    <p class="contenedor-presentation__about-me"></p>
+                </div>
+                <img class="contenedor-presentation__img" src="" alt="">
+            </div>
+        </template>
+    </section>
+    <div class="contenedor-servicios">
+        <h2 class="servicios">Mis<br>servicios</h2>
+        <section class="service">
+            <template id="contenedor-service">
+                <div class="card">
+                    <img src="" alt="" class="card-img">
+                    <h3 class="card-title"></h3>
+                    <p class="card-description">
+                    </p>
+                </div>
+            </template>
+        </section>
+    </div>
+    <div class="form-div"></div>
+    <footer class="contenedor-footer">
+    </footer>
+</body>
+
+</html>

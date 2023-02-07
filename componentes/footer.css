@@ -1,0 +1,58 @@
+.pie-pagina {
+    padding: 55px;
+    height: 70vh;
+    background-color: #0f1113;
+    font-family: "Poppins";
+    color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .footer__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  @media (min-width: 680px) {
+    .footer__section {
+      flex-direction: row;
+      gap: 40px;
+    }
+  }
+  
+  .logo-seba {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .footer__container-icon{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .footer__container-icon-and-text,
+  .footer__container-social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    align-items: center;
+  }
+  
+  .footer__icon-text {
+    text-decoration: none;
+    color: #eeeeee;
+  }
+  
+  .footer__icon {
+    width: 30px;
+    height: 30px;
+  }

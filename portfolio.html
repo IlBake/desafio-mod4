@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+
+    <!-- cosas del header -->
+    <script defer src="./componentes/header.js"></script>
+    <link rel="stylesheet" href="./componentes/header.css">
+
+    <!-- cosas del footer -->
+    <script defer src="./componentes/footer.js"></script>
+    <link rel="stylesheet" href="./componentes/footer.css">
+
+    <script defer src="./pages/portfolio.js"></script>
+    <link rel="stylesheet" href="./pages/portfolio.css">
+
+</head>
+
+<body>
+    <header class="portfolio-header"></header>
+    <section class="portfolio">
+        <h2 class="portfolio-title">Mi<br> Portfolio</h2>
+        <img class="portfolio-img" src="./img/image 1.png" alt="">
+        <template id="contenedor-portfolio">
+            <div class="card">
+                <img src="./img/image-portfolio.png" alt="" class="portfolio-card_img">
+                <h3 class="portfolio-card_title">Trabjo 1</h3>
+                <p class="portfolio-card_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                    similique necessitatibus provident commodi? Cum cupiditate dolores illum vel rem odio architecto
+                    perferendis hic assumenda magnam a cumque, ad quasi inventore!
+                </p>
+                <a class="portfolio-link" href="https://google.com.ar" target="_blank">Ver Aquí</a>
+            </div>
+        </template>
+    </section>
+    <section class="portfolio-footer"></section>
+</body>
+
+</html>
