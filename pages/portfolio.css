@@ -4,13 +4,13 @@
 
 body {
     margin: 0;
-    font-family: "Poppins";
-    background-color: #13171c;
+    font-family: "Poppins";   
+    background-color: #13171c; 
     color: white;
 }
 
 .portfolio {
-    background-image: url(/img/fondo-de-cards.png);
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,15 +20,47 @@ body {
     padding-bottom: 20px;
 }
 
-.portfolio-title {
-    font-size: 3rem;
-}
-
-.portfolio-img{
-    height: 200px;
+@media (min-width: 680px){
+    .portfolio{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
 }
 
 .contenedor-portfolio {
+    background-image: url(../img/fondo-cards.png);
+}
+
+.mi-portfolio {
+    font-size: 3rem;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+}
+@media (min-width: 680px){
+.mi-portfolio {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    justify-items:center;
+    align-items:center;
+    text-align: center;
+    padding-top: 2rem;
+    
+ }
+}
+
+
+
+.contenedor-servicios{
+    background-image: url(../img/fondo-cards.png);
+}
+
+.contenedor-service {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -49,4 +81,10 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 5px;
+}
+
+.card-img {
+    object-fit: cover;
+    width: 100%;
+    height: 140px;
 }

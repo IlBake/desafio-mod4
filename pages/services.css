@@ -4,12 +4,13 @@
 
 body {
     margin: 0;
-    font-family: "Poppins";
-    background-color: #13171c;
+    font-family: "Poppins";   
+    background-color: #13171c; 
     color: white;
 }
 
 .service {
+    /*background-color: url(../img/fondo-cards.png);*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,7 +42,7 @@ body {
 
 
 .contenedor-servicios{
-    background-image: url(/img/fondo-de-cards.png);
+    background-image: url(../img/fondo-cards.png);
 }
 
 .contenedor-service {

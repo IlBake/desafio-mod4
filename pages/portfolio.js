@@ -8,7 +8,7 @@ function miPortfolio(){
 function misPortfolioRes(result){
     let contador = 0;
     const contenedor = document.querySelector(".portfolio");
-    const template = document.querySelector("#contenedor-portfolio");
+    const template = document.querySelector("#contenedor-portfolio-dos");
     const imgContenful = result.includes.Asset.map((e)=> e.fields.file.url)
     for(let item of result.items){
         if(item.fields.imagen){
