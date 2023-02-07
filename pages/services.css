@@ -41,7 +41,7 @@ body {
 
 
 .contenedor-servicios{
-    background-image: url(./img/fondo-de-cards.png);
+    background-image: url(/img/fondo-de-cards.png);
 }
 
 .contenedor-service {
